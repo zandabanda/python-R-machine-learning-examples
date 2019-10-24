@@ -1,0 +1,9 @@
+1) Move to directory containing adult dataset of 32561 samples (not the full 48,000)
+
+2) Run the full script by highlighting the whole thing and clicking run. 
+
+Note: Execution Times take several minutes!!!!
+
+With the hinge loss commented out, it should take a few minutes.  With the hinge loss calculation included, it will take 10-15+ minutes to run!!!!!
+
+3) The accuracies will be listed in the workspace for evaluation (acceval), validation (accval), and test (acctst) datasets

@@ -1,0 +1,10 @@
+The packages "lattice", "plsdepot", and "rgl" are necessary to execute this code. They can be installed and loaded by lines 1-8.
+
+It is assumed that the data files "iris.data", "wine.data", and "wdbc.data" are in the working directory. Their location should be specified on line 9.
+
+The comments point to the code associated with producing the graph for each part (eg. the comment on line 64 shows that lines 65-66 produce the graph for part 5c).
+However, parts may not be independent of others (eg 5c uses "pca" which is instantiated on line 41 in part 5a).
+
+Running the entire file should work and produce all the plots. Creating a new plot will close the last though. 
+To see all the graphs, the code could be run part-by-part in-order.
+Alternatively, the line "dev.new()" could be added after each call to draw a graph. In this situation, run the code all at once.

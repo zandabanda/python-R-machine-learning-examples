@@ -1,0 +1,16 @@
+
+1) Move to directory containing all data and make sure all the relevant packages are installed as listed in the script.
+
+
+**NOTE: PLEASE USE the GIVEN file “pubfig_attributes.csv”, the CSV file, not the plain text. It needs to be unzipped!!!!!! **
+
+
+2) Run each section in succession; the sections are labeled with comments ('Read in Data', 'Part A, Linear SVM', ...)
+
+3) If you encounter a block of code enclosed in an IF statement 'if(FALSE)', DO NOT run that block; it did not contribute to results.
+
+3) For Part A using 'svmlight', change the path in the svmlight function call to the correct path containing the svmlight package.
+
+4) For Part C, the classifier used is the Random Forest model built for validation set #1, 'rf_val1'.
+
+
